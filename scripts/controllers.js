@@ -3,7 +3,7 @@ angular.module('basic.controllers', ['basic.services'])
 
 	$scope.$watch('name', function() {
 		if($scope.name.toLowerCase() === 'aaron') {
-			$scope.greeting = 'Nutella!';
+			$scope.greeting = 'Nutella!!!!';
 		}
 		else {
 			$scope.greeting = '';
