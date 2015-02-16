@@ -11,6 +11,9 @@ angular.module('basic.controllers', ['basic.services'])
 		if($scope.name.toLowerCase() === 'burk') {
 			$scope.greeting = 'Your mother thinks I am a nice young man';
 		}
+		if($scope.name.toLowerCase() === 'daniel') {
+			$scope.greeting = 'Dave Brubeck is insane';
+		}
 		else {
 			$scope.greeting = '';
 		}
